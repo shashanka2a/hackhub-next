@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="24" height="24" rx="5" fill="#0B1020"/>
+  <!-- Trophy cup -->
+  <path d="M8 4h8v2a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4V4z" stroke="url(#g)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trophy handles -->
+  <path d="M8 5H6a2 2 0 0 0 2 2" stroke="url(#g)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 5h2a2 2 0 0 1-2 2" stroke="url(#g)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stem and base -->
+  <path d="M12 10v3" stroke="url(#g)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M9 16h6" stroke="url(#g)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8 18h8" stroke="url(#g)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Star accent -->
+  <path d="M12 7.25l.6 1.22 1.35.2-0.98.96.23 1.35L12 10.3l-1.2.68.23-1.35-.98-.96 1.35-.2L12 7.25z" fill="url(#g)"/>
+</svg>
+
