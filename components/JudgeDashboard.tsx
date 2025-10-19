@@ -107,7 +107,7 @@ export function JudgeDashboard() {
         <div className="flex items-center justify-between p-4 max-w-4xl mx-auto">
           <div>
             <h1 className="font-bold text-xl">Your Judging Session</h1>
-            <p className="text-sm text-muted-foreground">ShellHacks 2025</p>
+            <p className="text-sm text-muted-foreground">DubHacks '25</p>
           </div>
           
           {/* Progress Indicator */}

@@ -35,7 +35,7 @@ const prizes = [
   {
     id: 1,
     title: 'Overall Winner',
-    sponsor: 'ShellHacks',
+    sponsor: 'DubHacks',
     track: 'Overall',
     value: '$8,000',
     criteria: 'Best overall hackathon project demonstrating innovation, technical excellence, and potential impact.',
@@ -178,7 +178,7 @@ const prizes = [
   {
     id: 14,
     title: 'Best First-Time Hacker',
-    sponsor: 'ShellHacks',
+    sponsor: 'DubHacks',
     track: 'Beginner',
     value: '$1,000',
     criteria: 'Outstanding project by first-time hackathon participants.',
@@ -188,7 +188,7 @@ const prizes = [
   },
 ];
 
-const sponsors = ['ShellHacks', 'Google Cloud', 'Microsoft', 'NVIDIA', 'Netflix', 'Capital One', 'State Farm', 'Waymo', 'Assurant', 'Google', 'Github', 'Wix.com & Base44', 'Wolfram'];
+const sponsors = ['DubHacks', 'VISA', 'Okanagan', 'Statsig', 'MLH - ElevenLabs', 'MLH - GoDaddy', 'MLH - Cloudflare', 'MLH - Gemini', 'MLH - Reach Capital', 'Best Freshman', 'DubHacks NEXT'];
 const tracks = ['Overall', 'Cloud Computing', 'AI Innovation', 'AI/ML Excellence', 'Content & Media', 'FinTech Innovation', 'InsurTech', 'Autonomous Systems', 'Digital Solutions', 'Developer Tools', 'Open Source', 'Web Innovation', 'Computational', 'Beginner'];
 
 export function Prizes() {

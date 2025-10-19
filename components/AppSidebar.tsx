@@ -91,7 +91,7 @@ export function AppSidebar({ currentScreen, onScreenChange }: AppSidebarProps) {
           </div>
           <div>
             <h2 className="font-bold text-lg">HackHub</h2>
-            <p className="text-muted-foreground text-sm">ShellHacks 2025</p>
+            <p className="text-muted-foreground text-sm">DubHacks '25</p>
           </div>
         </div>
       </SidebarHeader>

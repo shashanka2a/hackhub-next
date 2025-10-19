@@ -87,12 +87,12 @@ export function RoleSelection({ onRoleSelect, onBack }: RoleSelectionProps) {
             </div>
             <div>
               <h1 className="text-3xl font-bold">Welcome to HackHub</h1>
-              <p className="text-muted-foreground">ShellHacks 2025 • Miami, FL</p>
+              <p className="text-muted-foreground">DubHacks '25 • UW Seattle</p>
             </div>
           </div>
           <h2 className="text-xl text-muted-foreground mb-2">Choose Your Role</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Select how you'll be participating in ShellHacks 2025. Each role has a tailored interface designed for your specific needs.
+            Select how you'll be participating in DubHacks '25. Each role has a tailored interface designed for your specific needs.
           </p>
         </div>
 

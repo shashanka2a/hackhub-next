@@ -17,7 +17,7 @@ import {
 const statsCards = [
   {
     title: 'Projects',
-    value: '247',
+    value: '250',
     change: '+8 from last hour',
     icon: FolderOpen,
     gradient: 'from-blue-500 to-cyan-500',
@@ -48,19 +48,19 @@ const statsCards = [
 const upcomingDeadlines = [
   {
     title: 'Project Submissions Close',
-    time: 'Sept 28, 10:00 AM',
+    time: 'Oct 18, 10:30 PM PDT',
     status: 'urgent',
     icon: AlertCircle,
   },
   {
     title: 'Judging Period Ends',
-    time: 'Sept 28, 4:00 PM',
+    time: 'Oct 19, 4:00 PM PDT',
     status: 'warning',
     icon: Clock,
   },
   {
     title: 'Awards Ceremony',
-    time: 'Sept 28, 6:00 PM',
+    time: 'Oct 19, 6:00 PM PDT',
     status: 'info',
     icon: Trophy,
   },
@@ -70,9 +70,9 @@ export function Dashboard() {
   return (
     <div className="space-y-6">
       <div className="flex flex-col gap-2">
-        <h1 className="text-3xl font-bold tracking-tight">ShellHacks 2025 Dashboard</h1>
+        <h1 className="text-3xl font-bold tracking-tight">DubHacks '25 Dashboard</h1>
         <p className="text-muted-foreground">
-          Monitor ShellHacks 2025 progress and manage all aspects of the event in Miami, FL.
+          Monitor DubHacks '25 progress and manage all aspects of the event at UW Seattle.
         </p>
       </div>
 
@@ -114,7 +114,7 @@ export function Dashboard() {
             <div className="space-y-2">
               <div className="flex justify-between text-sm">
                 <span>Overall Progress</span>
-                <span className="font-medium">165/247 projects (67%)</span>
+                <span className="font-medium">165/250 projects (66%)</span>
               </div>
               <Progress value={67} className="h-3" />
             </div>

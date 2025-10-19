@@ -18,7 +18,7 @@ const judges = [
   {
     id: 1,
     name: 'Nolan',
-    email: 'nolan@shellhacks.com',
+    email: 'nolan@dubhacks.com',
     sponsor: 'General',
     specialization: 'Full Stack Development',
     projectsJudged: 12,
@@ -29,7 +29,7 @@ const judges = [
   {
     id: 2,
     name: 'Syed Mustafa',
-    email: 'syed.mustafa@shellhacks.com',
+    email: 'syed.mustafa@dubhacks.com',
     sponsor: 'General',
     specialization: 'Mobile Development',
     projectsJudged: 8,
@@ -40,7 +40,7 @@ const judges = [
   {
     id: 3,
     name: 'Dhanooram Nagaraj',
-    email: 'dhanooram.nagaraj@shellhacks.com',
+    email: 'dhanooram.nagaraj@dubhacks.com',
     sponsor: 'General',
     specialization: 'AI/ML',
     projectsJudged: 5,
@@ -51,7 +51,7 @@ const judges = [
   {
     id: 4,
     name: 'Natalie Neshama',
-    email: 'natalie.neshama@shellhacks.com',
+    email: 'natalie.neshama@dubhacks.com',
     sponsor: 'General',
     specialization: 'Web Development',
     projectsJudged: 15,
@@ -62,7 +62,7 @@ const judges = [
   {
     id: 5,
     name: 'Serhii Romanov',
-    email: 'serhii.romanov@shellhacks.com',
+    email: 'serhii.romanov@dubhacks.com',
     sponsor: 'General',
     specialization: 'Blockchain',
     projectsJudged: 3,
@@ -73,7 +73,7 @@ const judges = [
   {
     id: 6,
     name: 'Fenil Gholani',
-    email: 'fenil.gholani@shellhacks.com',
+    email: 'fenil.gholani@dubhacks.com',
     sponsor: 'General',
     specialization: 'Hardware',
     projectsJudged: 7,

@@ -129,7 +129,7 @@ export function SponsorDashboard() {
             <h2 className="text-2xl font-bold mb-2">Track Judging Complete!</h2>
             <p className="text-muted-foreground mb-6">
               You've successfully judged all {totalProjects} projects in the {sponsorInfo.track}. 
-              Thank you for sponsoring ShellHacks 2025!
+              Thank you for sponsoring DubHacks '25!
             </p>
             <Button className="w-full bg-gradient-to-r from-violet-500 to-blue-600 hover:from-violet-600 hover:to-blue-700">
               <Trophy className="w-4 h-4 mr-2" />
@@ -152,7 +152,7 @@ export function SponsorDashboard() {
             </div>
             <div>
               <h1 className="font-bold text-xl">Judging: {sponsorInfo.track}</h1>
-              <p className="text-sm text-muted-foreground">Sponsored by {sponsorInfo.name} • ShellHacks 2025</p>
+              <p className="text-sm text-muted-foreground">Sponsored by {sponsorInfo.name} • DubHacks '25</p>
             </div>
           </div>
           
@@ -371,7 +371,7 @@ export function SponsorDashboard() {
                   </div>
                   <div>
                     <p className="font-medium text-sm">{sponsorInfo.name} Sponsor</p>
-                    <p className="text-xs text-muted-foreground">Thank you for supporting ShellHacks!</p>
+                    <p className="text-xs text-muted-foreground">Thank you for supporting DubHacks!</p>
                   </div>
                 </div>
                 <p className="text-xs text-muted-foreground">
