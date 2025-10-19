@@ -28,18 +28,18 @@ interface ImportHackathonProps {
 }
 
 const mockHackathonData = {
-  name: 'ShellHacks 2025',
+  name: 'DubHacks \'25',
   dates: {
-    start: '2025-09-26',
-    end: '2025-09-28',
+    start: '2025-10-18',
+    end: '2025-10-19',
   },
-  projectCount: 247,
-  tracks: ['AI/ML', 'Web Development', 'Mobile Apps', 'Blockchain', 'Hardware', 'Social Impact'],
-  description: 'The premier hackathon in South Florida bringing together 839 developers to build innovative solutions and compete for amazing prizes.',
-  organizer: 'Emely Barcenas',
-  location: 'Miami, FL',
-  prizes: '$45,650 in prizes',
-  participants: 839,
+  projectCount: 764,
+  tracks: ['AI/ML', 'Web Development', 'Mobile Apps', 'Blockchain', 'Hardware', 'Social Good'],
+  description: 'DubHacks is a tech and entrepreneurship non-profit in Seattle run by students at the University of Washington. Join us for 24 hours of innovation and creativity.',
+  organizer: 'Nolan',
+  location: 'UW - Seattle Husky Union Building',
+  prizes: '$50,000 in cash',
+  participants: 764,
 };
 
 export function ImportHackathon({ onComplete, userType }: ImportHackathonProps) {

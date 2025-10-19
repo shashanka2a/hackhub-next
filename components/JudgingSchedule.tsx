@@ -21,7 +21,7 @@ const scheduleSlots = [
     id: 1,
     time: '2:00 PM',
     endTime: '2:08 PM',
-    judge: 'Shashank Jagannatham',
+    judge: 'Nolan',
     project: 'EcoTracker',
     table: 'A-12',
     track: 'AI/ML',
@@ -31,7 +31,7 @@ const scheduleSlots = [
     id: 2,
     time: '2:08 PM',
     endTime: '2:16 PM',
-    judge: 'Shashank Jagannatham',
+    judge: 'Nolan',
     project: 'SmartDetect',
     table: 'A-15',
     track: 'AI/ML',
@@ -92,7 +92,7 @@ const scheduleSlots = [
 
 const judgeSchedules = [
   {
-    judge: 'Shashank Jagannatham',
+    judge: 'Nolan',
     totalSlots: 15,
     completedSlots: 8,
     upcomingSlots: 7,
@@ -161,7 +161,7 @@ const judgeSchedules = [
 
 export function JudgingSchedule() {
   const [viewMode, setViewMode] = useState<'organizer' | 'judge'>('organizer');
-  const [selectedJudge, setSelectedJudge] = useState('Shashank Jagannatham');
+  const [selectedJudge, setSelectedJudge] = useState('Nolan');
 
   const getStatusColor = (status: string) => {
     switch (status) {

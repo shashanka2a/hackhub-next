@@ -17,13 +17,13 @@ import { Search, UserPlus, Building2, Award } from 'lucide-react';
 const judges = [
   {
     id: 1,
-    name: 'Shashank Jagannatham',
-    email: 'shashank.jagannatham@shellhacks.com',
+    name: 'Nolan',
+    email: 'nolan@shellhacks.com',
     sponsor: 'General',
     specialization: 'Full Stack Development',
     projectsJudged: 12,
     totalAssigned: 15,
-    avatar: 'SJ',
+    avatar: 'N',
     status: 'active',
   },
   {

@@ -21,11 +21,11 @@ export function TopBar() {
           <SidebarTrigger className="lg:hidden" />
           <div className="hidden lg:flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-blue-600 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SH</span>
+              <span className="text-white font-bold text-sm">DH</span>
             </div>
             <div>
-              <h1 className="font-bold">ShellHacks 2025</h1>
-              <p className="text-sm text-muted-foreground">September 26-28, 2025 • Miami, FL</p>
+              <h1 className="font-bold">DubHacks '25</h1>
+              <p className="text-sm text-muted-foreground">October 18-19, 2025 • UW Seattle</p>
             </div>
           </div>
         </div>
@@ -51,10 +51,10 @@ export function TopBar() {
               <Button variant="ghost" className="gap-2 px-3">
                 <Avatar className="w-8 h-8">
                   <AvatarImage src="/api/placeholder/32/32" alt="Profile" />
-                  <AvatarFallback className="bg-gradient-to-br from-purple-500 to-pink-600 text-white">EB</AvatarFallback>
+                  <AvatarFallback className="bg-gradient-to-br from-purple-500 to-pink-600 text-white">N</AvatarFallback>
                 </Avatar>
                 <div className="hidden lg:block text-left">
-                  <p className="text-sm font-medium">Emely Barcenas</p>
+                  <p className="text-sm font-medium">Nolan</p>
                   <p className="text-xs text-muted-foreground">Organizer</p>
                 </div>
                 <ChevronDown className="w-4 h-4" />
